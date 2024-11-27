@@ -1,3 +1,3 @@
-import '@nl-design-system-candidate/paragraph-css/paragraph.css';
+import '@nl-design-system/paragraph-css/paragraph.css';
 
 export { Paragraph } from './paragraph';

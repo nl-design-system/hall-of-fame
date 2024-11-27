@@ -9,17 +9,17 @@ Shows a paragraph of text.
 Using npm
 
 ```shell
-npm install @nl-design-system-candidate/paragraph-css
+npm install @nl-design-system/paragraph-css
 ```
 
 Using pnpm
 
 ```shell
-pnpm add @nl-design-system-candidate/paragraph-css
+pnpm add @nl-design-system/paragraph-css
 ```
 
 Using yarn
 
 ```shell
-yarn add @nl-design-system-candidate/paragraph-css
+yarn add @nl-design-system/paragraph-css
 ```

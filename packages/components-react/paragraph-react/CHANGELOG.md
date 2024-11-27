@@ -1,4 +1,4 @@
-# @nl-design-system-candidate/paragraph-react
+# @nl-design-system/paragraph-react
 
 ## 2.0.0
 

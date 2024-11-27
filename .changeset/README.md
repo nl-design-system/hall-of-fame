@@ -6,7 +6,7 @@ Kopieer en plak het onderstaande sjabloon. Je kunt hiervoor de kopieer knop link
 
 ```markdown
 ---
-'@nl-design-system-candidate/<package-name>': major
+'@nl-design-system/<package-name>': major
 ---
 
 Beschrijving
@@ -17,9 +17,9 @@ dubbele aanhalingstekens op een nieuwe regel.
 
 Gebruik:
 
-- `"@nl-design-system-candidate/<package-name>": major` voor breaking changes
-- `"@nl-design-system-candidate/<package-name>": minor` voor nieuwe features
-- `"@nl-design-system-candidate/<package-name>": patch` voor bug fixes
+- `"@nl-design-system/<package-name>": major` voor breaking changes
+- `"@nl-design-system/<package-name>": minor` voor nieuwe features
+- `"@nl-design-system/<package-name>": patch` voor bug fixes
 
 Beschrijf na de tweede set `---` welke veranderingen je hebt doorgevoerd.
 

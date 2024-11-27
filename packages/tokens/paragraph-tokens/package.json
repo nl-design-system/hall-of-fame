@@ -1,5 +1,5 @@
 {
-  "name": "@nl-design-system-candidate/paragraph-tokens",
+  "name": "@nl-design-system/paragraph-tokens",
   "version": "0.0.0",
   "description": "Design tokens voor het Paragraph component",
   "license": "EUPL-1.2",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:nl-design-system/candidate.git",
+    "url": "git@github.com:nl-design-system/hall-of-fame.git",
     "directory": "packages/tokens/paragraph-tokens"
   },
   "private": true,

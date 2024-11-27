@@ -7,19 +7,19 @@
 Using npm
 
 ```shell
-npm install @nl-design-system-candidate/paragraph-react
+npm install @nl-design-system/paragraph-react
 ```
 
 Using pnpm
 
 ```shell
-pnpm add @nl-design-system-candidate/paragraph-react
+pnpm add @nl-design-system/paragraph-react
 ```
 
 Using yarn
 
 ```shell
-yarn add @nl-design-system-candidate/paragraph-react
+yarn add @nl-design-system/paragraph-react
 ```
 
 ## Usage
@@ -27,13 +27,13 @@ yarn add @nl-design-system-candidate/paragraph-react
 If you just want the React component
 
 ```typescript
-import { Paragraph } from '@nl-design-system-candidate/paragraph-react';
+import { Paragraph } from '@nl-design-system/paragraph-react';
 ```
 
 If you want the React component with styles
 
 ```typescript
-import { Paragraph } from '@nl-design-system-candidate/paragraph-react/css';
+import { Paragraph } from '@nl-design-system/paragraph-react/css';
 ```
 
 ## Properties

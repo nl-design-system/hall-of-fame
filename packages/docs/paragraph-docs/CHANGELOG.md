@@ -1,4 +1,4 @@
-# @nl-design-system-candidate/paragraph-docs
+# @nl-design-system/paragraph-docs
 
 ## 1.0.0
 

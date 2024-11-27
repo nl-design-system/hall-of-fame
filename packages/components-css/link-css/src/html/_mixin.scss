@@ -1,7 +1,0 @@
-@use "../mixin";
-
-@mixin a {
-  a {
-    @include mixin.nl-link;
-  }
-}

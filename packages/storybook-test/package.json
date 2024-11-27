@@ -1,5 +1,5 @@
 {
-  "name": "@nl-design-system-candidate/storybook-tests",
+  "name": "@nl-design-system/storybook-tests",
   "description": "Storybook for extensive visual regression testing",
   "license": "EUPL-1.2",
   "type": "module",
@@ -11,7 +11,7 @@
   "private": true,
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:nl-design-system/candidate.git",
+    "url": "git@github.com:nl-design-system/hall-of-fame.git",
     "directory": "packages/storybook-tests"
   },
   "devDependencies": {

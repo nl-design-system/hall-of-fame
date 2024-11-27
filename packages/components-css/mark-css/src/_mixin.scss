@@ -1,9 +1,0 @@
-@mixin nl-mark {
-  background-color: var(--nl-mark-background-color, revert);
-  color: var(--nl-mark-color, revert);
-
-  @media (forced-colors: active) {
-    --nl-mark-background-color: Highlight;
-    --nl-mark-color: HighlightText;
-  }
-}

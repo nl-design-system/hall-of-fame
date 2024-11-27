@@ -1,9 +1,9 @@
 {
-  "name": "@nl-design-system-candidate/paragraph-react",
-  "version": "2.0.0",
+  "name": "@nl-design-system/paragraph-react",
+  "version": "0.0.0",
   "description": "Displays a paragraph of text",
   "license": "EUPL-1.2",
-  "homepage": "https://github.com/nl-design-system/candidate/tree/main/packages/components-react/paragraph-react#readme",
+  "homepage": "https://github.com/nl-design-system/hall-of-fame/tree/main/packages/components-react/paragraph-react#readme",
   "type": "module",
   "main": "./dist/paragraph.js",
   "files": [
@@ -21,9 +21,10 @@
   },
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:nl-design-system/candidate.git",
+    "url": "git@github.com:nl-design-system/hall-of-fame.git",
     "directory": "packages/components-react/paragraph-react"
   },
+  "private": true,
   "publishConfig": {
     "access": "public"
   },
@@ -37,7 +38,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.26.0",
-    "@nl-design-system-candidate/paragraph-css": "workspace:*",
+    "@nl-design-system/paragraph-css": "workspace:*",
     "@types/react": "18.3.12",
     "react": "18.3.1"
   },

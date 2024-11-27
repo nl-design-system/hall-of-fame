@@ -1,4 +1,4 @@
-# @nl-design-system-candidate/paragraph-css
+# @nl-design-system/paragraph-css
 
 ## 2.0.0
 
