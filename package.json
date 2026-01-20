@@ -16,7 +16,7 @@
   "engines": {
     "//": "Update @types/node when updating this node version",
     "node": ">=24 <=25",
-    "pnpm": "^9"
+    "pnpm": "^10.17.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "7.25.9",
