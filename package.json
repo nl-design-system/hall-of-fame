@@ -52,7 +52,7 @@
     "stylelint": "16.10.0",
     "stylelint-config-standard-scss": "13.1.0",
     "stylelint-order": "6.0.4",
-    "typescript": "5.6.3"
+    "typescript": "5.9.3"
   },
   "scripts": {
     "build": "pnpm --recursive --if-present run build",
