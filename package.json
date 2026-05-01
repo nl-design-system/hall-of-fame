@@ -25,7 +25,7 @@
     "@babel/preset-typescript": "7.28.5",
     "@changesets/cli": "2.30.0",
     "@eslint/js": "9.14.0",
-    "@jest/globals": "29.7.0",
+    "@jest/globals": "30.3.0",
     "@nl-design-system/eslint-config": "0.0.1",
     "@nl-design-system/rollup-config-react-component": "1.0.7",
     "@nl-design-system/tsconfig": "1.0.5",
