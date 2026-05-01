@@ -28,8 +28,8 @@ importers:
         specifier: 2.30.0
         version: 2.30.0(@types/node@24.12.0)
       '@eslint/js':
-        specifier: 9.14.0
-        version: 9.14.0
+        specifier: 9.39.4
+        version: 9.39.4
       '@jest/globals':
         specifier: 29.7.0
         version: 29.7.0
@@ -1163,6 +1163,10 @@ packages:
 
   '@eslint/js@9.14.0':
     resolution: {integrity: sha512-pFoEtFWCPyDOl+C6Ift+wC7Ro89otjigCf5vcuWqWgqNSQbRrpjSvdeE6ofLz4dHmyxD5f7gIdGT4+p36L6Twg==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.39.4':
+    resolution: {integrity: sha512-nE7DEIchvtiFTwBw4Lfbu59PG+kCofhjsKaCWzxTpt4lfRjRMqG6uMBzKXuEcyXhOHoUp9riAm7/aWYGhXZ9cw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/json@0.6.0':
@@ -5751,6 +5755,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -7051,6 +7056,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.14.0': {}
+
+  '@eslint/js@9.39.4': {}
 
   '@eslint/json@0.6.0':
     dependencies:
