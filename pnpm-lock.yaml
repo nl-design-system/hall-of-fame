@@ -141,8 +141,8 @@ importers:
   packages/storybook:
     devDependencies:
       '@etchteam/storybook-addon-status':
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 8.0.0
+        version: 8.0.0(storybook@8.4.2(prettier@3.8.1))
       '@fontsource/fira-sans':
         specifier: 5.2.7
         version: 5.2.7
@@ -210,8 +210,8 @@ importers:
   packages/storybook-test:
     devDependencies:
       '@etchteam/storybook-addon-status':
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 8.0.0
+        version: 8.0.0(storybook@8.4.2(prettier@3.8.1))
       '@nl-design-system-unstable/voorbeeld-design-tokens':
         specifier: 3.2.0
         version: 3.2.0
@@ -1177,8 +1177,10 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@etchteam/storybook-addon-status@5.0.0':
-    resolution: {integrity: sha512-0Dg94xQ3T+rYTi6ekFkaH0XU9k0IQOqidiSmwN47Oqw4u1qjxK6m7wV3j7C0deLEuf4U4PrAcsDfDjyehKne2A==}
+  '@etchteam/storybook-addon-status@8.0.0':
+    resolution: {integrity: sha512-PR0qiT5ndB32rfRi3a6QJE66sUuTD2GeJMmQFdaEOLjTWuJ/usdZ6hXXCmWadPLZXcg6wkvHGFQxDSOKNVjU9A==}
+    peerDependencies:
+      storybook: ^10.0.0
 
   '@fontsource/fira-sans@5.2.7':
     resolution: {integrity: sha512-5DE4AealD/VnbwdzMgnpWfCttMQBbteNiK9DCJE7cVwZEbDTPLUoFDMMvxNQ498nZc5in7Mta9c/s+3Ehh0BAg==}
@@ -4057,8 +4059,8 @@ packages:
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -5751,6 +5753,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -7063,9 +7066,10 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@etchteam/storybook-addon-status@5.0.0':
+  '@etchteam/storybook-addon-status@8.0.0(storybook@8.4.2(prettier@3.8.1))':
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
+      storybook: 8.4.2(prettier@3.8.1)
 
   '@fontsource/fira-sans@5.2.7': {}
 
@@ -7790,7 +7794,7 @@ snapshots:
       chalk: 3.0.0
       css.escape: 1.5.1
       dom-accessibility-api: 0.6.3
-      lodash: 4.17.21
+      lodash: 4.18.1
       redent: 3.0.0
 
   '@testing-library/jest-dom@6.9.1':
@@ -8220,7 +8224,7 @@ snapshots:
 
   async@2.6.4:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
 
   asynckit@0.4.0: {}
 
@@ -10521,7 +10525,7 @@ snapshots:
 
   lodash.uniq@4.5.0: {}
 
-  lodash@4.17.21: {}
+  lodash@4.18.1: {}
 
   log-symbols@4.1.0:
     dependencies:
