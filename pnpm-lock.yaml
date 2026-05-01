@@ -150,8 +150,8 @@ importers:
         specifier: 5.2.5
         version: 5.2.5
       '@nl-design-system-unstable/voorbeeld-design-tokens':
-        specifier: 3.1.0
-        version: 3.1.0
+        specifier: 10.1.0
+        version: 10.1.0
       '@storybook/addon-a11y':
         specifier: 8.4.2
         version: 8.4.2(storybook@8.4.2(prettier@3.8.1))
@@ -213,8 +213,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       '@nl-design-system-unstable/voorbeeld-design-tokens':
-        specifier: 3.2.0
-        version: 3.2.0
+        specifier: 10.1.0
+        version: 10.1.0
       '@storybook/addon-a11y':
         specifier: 8.4.2
         version: 8.4.2(storybook@8.4.2(prettier@3.8.1))
@@ -1330,11 +1330,8 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@nl-design-system-unstable/voorbeeld-design-tokens@3.1.0':
-    resolution: {integrity: sha512-FiJvNzCnG3bO/cCm3ZhggCpS8H4d7CPRXe99f5BEj+3cOeM+lPZvU6qMGgevU7x1BrnfzBwzB4S4TtB8IgcGBA==}
-
-  '@nl-design-system-unstable/voorbeeld-design-tokens@3.2.0':
-    resolution: {integrity: sha512-Cz2F/pBYTbQhzxCzc4I2Qs4oF1qCFr4PbmiAxRcL6j4FUxRSrTkaYrdtP3PkpuhHTFVGZlTXI2IrUduin6urXQ==}
+  '@nl-design-system-unstable/voorbeeld-design-tokens@10.1.0':
+    resolution: {integrity: sha512-NjutTvLWz14iDoE5zkK43+jiGSK3DYCVyKXOii/sDemO+9dQtJdRp0O1PNRgIlEa2bvPjgKaIq9Y+EhdoO22IQ==}
 
   '@nl-design-system/eslint-config@0.0.1':
     resolution: {integrity: sha512-zgKEBk0S88bkRX4zRihhoOidQtekpvOHWOOPl0aJhTy5aF2hyFzbzDTGjPgpseo0lDbwZjd7LUwLJevOj83WYg==}
@@ -5751,6 +5748,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -7316,9 +7314,7 @@ snapshots:
       '@types/react': 18.3.12
       react: 18.3.1
 
-  '@nl-design-system-unstable/voorbeeld-design-tokens@3.1.0': {}
-
-  '@nl-design-system-unstable/voorbeeld-design-tokens@3.2.0': {}
+  '@nl-design-system-unstable/voorbeeld-design-tokens@10.1.0': {}
 
   '@nl-design-system/eslint-config@0.0.1(eslint@9.14.0)(typescript@5.6.3)':
     dependencies:
