@@ -186,8 +186,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       '@whitespace/storybook-addon-html':
-        specifier: 6.1.1
-        version: 6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@18.3.1))
+        specifier: 9.0.0
+        version: 9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1))
       prettier:
         specifier: 3.8.1
         version: 3.8.1
@@ -240,8 +240,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1
       '@whitespace/storybook-addon-html':
-        specifier: 6.1.1
-        version: 6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@18.3.1))
+        specifier: 9.0.0
+        version: 9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1))
       i18next:
         specifier: 24.0.2
         version: 24.0.2(typescript@5.6.3)
@@ -2039,11 +2039,11 @@ packages:
   '@vitest/utils@2.1.9':
     resolution: {integrity: sha512-v0psaMSkNJ3A2NMrUEHFRzJtDPFn+/VWZ5WxImB21T9fjucJRmS7xCS3ppEnARb9y11OAzaD+P2Ps+b+BGX5iQ==}
 
-  '@whitespace/storybook-addon-html@6.1.1':
-    resolution: {integrity: sha512-sq/9c6s4PXugl//Q5iFwKoHF3tBDTEfJQubb62HWspF+CqBrDLHVEh7VYoEjubm5LjihxdFV3+mjj8Ck6bnoHQ==}
+  '@whitespace/storybook-addon-html@9.0.0':
+    resolution: {integrity: sha512-GX2lk5EgE46Lqbs1sa/7mWDWo6g/tPiIH8SyYvzBgMlUmq/q1mulHLxowQeN/HYpdlFMeUskUlYhMmE64qi44w==}
     peerDependencies:
-      prettier: ^3.0.0
-      react-syntax-highlighter: ^15.0.0
+      prettier: ^3.7.1
+      storybook: ^10
 
   abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
@@ -5751,6 +5751,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -8046,10 +8047,10 @@ snapshots:
       loupe: 3.2.1
       tinyrainbow: 1.2.0
 
-  '@whitespace/storybook-addon-html@6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@18.3.1))':
+  '@whitespace/storybook-addon-html@9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1))':
     dependencies:
       prettier: 3.8.1
-      react-syntax-highlighter: 15.6.1(react@18.3.1)
+      storybook: 8.4.2(prettier@3.8.1)
 
   abab@2.0.6: {}
 
