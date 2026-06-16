@@ -4,3 +4,6 @@ packages:
   - packages/components-css/*
   - packages/docs/*
   - packages/tokens/*
+
+overrides:
+  shell-quote@>=1.1.0 <=1.8.3: ">=1.8.4"
