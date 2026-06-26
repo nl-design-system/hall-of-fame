@@ -1,6 +1,4 @@
 name: Continuous Delivery
-# Triggers the following workflows:
-# - .github/workflows/codecov.yml
 
 on:
   push:
@@ -133,6 +131,15 @@ jobs:
           name: coverage-report
           path: packages/components-react/*/coverage/
           retention-days: 1
+
+  codecov:
+    needs: test
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/codecov.yml
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
   publish-website:
     runs-on: ubuntu-latest
