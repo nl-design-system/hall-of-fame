@@ -1,12 +1,16 @@
-import { describe, expect, it } from '@jest/globals';
-import '@testing-library/jest-dom/jest-globals';
-import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/vitest';
+import { cleanup, render, screen } from '@testing-library/react';
 import { createRef } from 'react';
+import { afterEach, describe, expect, it } from 'vitest';
 import { Paragraph } from './paragraph';
 
 const text = 'Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.';
 const extraClassName = 'extra-classname';
 const testId = 'rich-text';
+
+afterEach(() => {
+  cleanup();
+});
 
 describe('Paragraph', () => {
   describe('default paragraph', () => {
