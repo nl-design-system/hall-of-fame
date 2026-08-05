@@ -6,14 +6,14 @@ packages:
   - packages/tokens/*
 
 overrides:
-  shell-quote@>=1.1.0 <=1.8.3: ">=1.8.4"
+  shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
 allowBuilds:
-  "@parcel/watcher": true
+  '@parcel/watcher': true
   esbuild: true
   unrs-resolver: true
 engineStrict: true
 saveExact: true
-savePrefix: ""
+savePrefix: ''
 strictPeerDependencies: false
 autoInstallPeers: false
 provenance: true
