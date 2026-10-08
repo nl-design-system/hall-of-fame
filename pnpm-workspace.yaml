@@ -6,7 +6,7 @@ packages:
   - packages/tokens/*
 
 overrides:
-  shell-quote@>=1.1.0 <=1.8.3: '>=1.8.4'
+  shell-quote@<1.11.0: ^1.11.0
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
@@ -17,3 +17,4 @@ savePrefix: ''
 strictPeerDependencies: false
 autoInstallPeers: false
 provenance: true
+minimumReleaseAgeExclude:
