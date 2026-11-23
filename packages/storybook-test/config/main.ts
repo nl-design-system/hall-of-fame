@@ -4,8 +4,6 @@ const config: StorybookConfig = {
   addons: [
     '@storybook/addon-a11y',
     '@storybook/addon-docs',
-    '@storybook/addon-toolbars',
-    '@storybook/addon-viewport',
     '@whitespace/storybook-addon-html',
     '@etchteam/storybook-addon-status',
   ],
@@ -14,11 +12,7 @@ const config: StorybookConfig = {
     disableWhatsNewNotifications: true,
   },
   docs: {
-    autodocs: 'tag',
     defaultName: 'Documentatie',
-  },
-  features: {
-    viewportStoryGlobals: true,
   },
   framework: {
     name: '@storybook/react-vite',

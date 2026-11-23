@@ -19,27 +19,21 @@
     "storybook": "storybook dev --config-dir ./config/ --port 6006"
   },
   "devDependencies": {
-    "@etchteam/storybook-addon-status": "5.0.0",
+    "@etchteam/storybook-addon-status": "8.1.0",
     "@fontsource/fira-sans": "5.2.7",
     "@fontsource/source-serif-pro": "5.2.5",
     "@nl-design-system-unstable/voorbeeld-design-tokens": "3.1.0",
-    "@storybook/addon-a11y": "8.4.2",
-    "@storybook/addon-actions": "8.4.2",
-    "@storybook/addon-docs": "8.4.2",
-    "@storybook/addon-interactions": "8.6.14",
-    "@storybook/addon-links": "8.4.2",
-    "@storybook/addon-viewport": "8.4.2",
-    "@storybook/blocks": "8.6.14",
-    "@storybook/react": "8.4.2",
-    "@storybook/react-vite": "8.4.2",
+    "@storybook/addon-a11y": "10.6.8",
+    "@storybook/addon-docs": "10.6.8",
+    "@storybook/react-vite": "10.6.8",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@whitespace/storybook-addon-html": "6.1.1",
+    "@whitespace/storybook-addon-html": "9.0.0",
     "prettier": "3.8.1",
     "react": "19.2.5",
     "react-dom": "19.2.5",
     "react-syntax-highlighter": "15.6.1",
     "storybook": "10.6.8",
-    "vite": "5.4.10"
+    "vite": "7.3.6"
   }
 }
