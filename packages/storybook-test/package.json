@@ -25,7 +25,7 @@
     "@storybook/react-vite": "8.4.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@whitespace/storybook-addon-html": "6.1.1",
+    "@whitespace/storybook-addon-html": "9.0.0",
     "i18next": "24.0.2",
     "i18next-http-backend": "3.0.4",
     "prettier": "3.8.1",
