@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/react';
+import type { Preview } from '@storybook/react-vite';
 import { DocsPage } from '../src/DocsPage';
 import { StoryRoot, storyRootClassname } from '../src/StoryRoot';
 import { DEFAULT_ZOOM, Zoom } from '../src/Zoom';
