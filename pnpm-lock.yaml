@@ -195,8 +195,8 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.14)
       '@whitespace/storybook-addon-html':
-        specifier: 6.1.1
-        version: 6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@19.2.5))
+        specifier: 9.0.0
+        version: 9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1)(supports-color@10.2.2))
       prettier:
         specifier: 3.8.1
         version: 3.8.1
@@ -249,8 +249,8 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.14)
       '@whitespace/storybook-addon-html':
-        specifier: 6.1.1
-        version: 6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@19.2.5))
+        specifier: 9.0.0
+        version: 9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1)(supports-color@10.2.2))
       i18next:
         specifier: 24.0.2
         version: 24.0.2(typescript@5.6.3)
@@ -2104,11 +2104,11 @@ packages:
   '@vitest/utils@4.1.8':
     resolution: {integrity: sha512-uOJamYALNhfJ6iolExyQM40yIQwDqYnkKtQ5VCiSe17E33H0aQ/u+1GlRuz4LZBk6Mm3sg90G9hEbmEt37C1Zg==}
 
-  '@whitespace/storybook-addon-html@6.1.1':
-    resolution: {integrity: sha512-sq/9c6s4PXugl//Q5iFwKoHF3tBDTEfJQubb62HWspF+CqBrDLHVEh7VYoEjubm5LjihxdFV3+mjj8Ck6bnoHQ==}
+  '@whitespace/storybook-addon-html@9.0.0':
+    resolution: {integrity: sha512-GX2lk5EgE46Lqbs1sa/7mWDWo6g/tPiIH8SyYvzBgMlUmq/q1mulHLxowQeN/HYpdlFMeUskUlYhMmE64qi44w==}
     peerDependencies:
-      prettier: ^3.0.0
-      react-syntax-highlighter: ^15.0.0
+      prettier: ^3.7.1
+      storybook: ^10
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -7786,10 +7786,10 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
 
-  '@whitespace/storybook-addon-html@6.1.1(prettier@3.8.1)(react-syntax-highlighter@15.6.1(react@19.2.5))':
+  '@whitespace/storybook-addon-html@9.0.0(prettier@3.8.1)(storybook@8.4.2(prettier@3.8.1)(supports-color@10.2.2))':
     dependencies:
       prettier: 3.8.1
-      react-syntax-highlighter: 15.6.1(react@19.2.5)
+      storybook: 8.4.2(prettier@3.8.1)(supports-color@10.2.2)
 
   acorn-jsx@5.3.2(acorn@8.14.0):
     dependencies:
